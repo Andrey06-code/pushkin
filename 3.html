@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина по произведениям А.С. Пушкина</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body id="bodyid" style="background-color: rgba(255, 212, 118, 0.243);">
+    <main class="main">
+
+        <div class="divcounter">
+        <h1 id="counter">0</h1>
+        <h1 id="allcounter">/30</h1>
+        </div>
+        <h1>Викторина по произведениям А.С. Пушкина</h1>
+        <h2 class="q">Бог моря?</h2>
+        <div>
+        
+        <button class="answer" onclick="error()">Зевс</button>
+        
+        <br>
+        <br>
+        
+        <button class="answer" onclick="error()">Афина</button>
+        
+        <br>
+        <br>
+        
+        <button class="answer" onclick="Right6()">Посейдон</button>
+        
+        <br>
+        <br>
+        
+        <button class="answer" onclick="error()">Аполлон</button>
+        
+        </div>
+        <p id="false" style="color: red; display: none">Неправильно! Посейдон.</p>
+        <p id="true" style="color: green; display: none">Правильно! Посейдон.</p>
+        <br>
+        <br>
+        <a href="4.html"><button class="next">Далее</button></a>
+    </main>
+    <script src="script/quiz.js"></script>
+
+</body>
+</html>

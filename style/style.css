@@ -1,0 +1,79 @@
+.divcounter {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px;
+}
+.divcountere {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0px;
+}
+
+#allcounter{
+    color: rgb(110, 110, 110);
+}
+.q{
+    font-size: 35px;
+}
+.answer{
+            background-color: rgb(181, 147, 11);
+            color: white;
+            border: 2px solid rgb(15, 135, 255);
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            width: 60%;
+            font-size: 30px;
+            
+}
+
+.next{
+            background-color: rgb(43, 178, 28);
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            width: 20%;
+}
+
+.start{
+            background-color: rgb(43, 178, 28);
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            width: 30%;
+}
+
+#true{
+    font-size: 30px;
+}
+#false{
+    font-size: 30px;
+}
+
+.img{
+    width: 250px;
+}
+.homeimg{
+    width: 50px;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+

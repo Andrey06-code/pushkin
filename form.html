@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завершение</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body style="background-color: rgba(255, 212, 118, 0.243);">
+    <h1>Ваш результат:</h1>
+    <div class="divcountere">
+        <h1 style="font-size: 100px;" id="counter">0</h1>
+        <h1 style="font-size: 100px;" id="allcounter">/30</h1>
+    </div>
+
+    
+<script>
+    const counterElement = document.getElementById('counter');
+   
+    const savedParams = sessionStorage.getItem('counter') || 0;
+    counterElement.textContent = savedParams;
+</script>
+
+</body>
+</html>
